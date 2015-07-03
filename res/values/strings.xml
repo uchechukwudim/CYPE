@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="APP_ID">221584528026756</string>
+    
+    <string name="app_name">CYPE</string>
+    <string name="action_settings">Settings</string>
+    <string name="logout">Logout</string>
+    
+    <string name="FB_app_id">221584528026756</string>
+    
+       <!-- Cype Titles strings -->
+    <string name="title_activity_foregot_password">ForegotPassword</string>
+    <string name="title_activity_update_details">Update Details</string>
+ 	<string name="title_activity_user_image_view">UserImageView</string>
+ 	<string name="title_activity_image_view">Cype People</string>
+  	<string name="title_activity_notification_dialog">Notification Dialog</string>
+    <string name="title_activity_uploader">Upload Image</string>
+    <string name="title_activity_actionbar_menu">Home</string>
+    <string name="title_activity_tell_us_form">Tell Us</string>
+    <string name="title_activity_signup">Signup</string>
+    <string name="title_activity_dialog">Dialog</string>
+    <string name="title_activity_club_details">Club Details</string>
+    <string name="title_activity_action_bar">Home</string>
+
+    <!-- upload strings -->
+    <string name="browse">Browse</string>
+    <string name="upload">Upload</string>
+    <string name="prof_pic_desc">profile picture</string>
+    <string name="sel_ph">Select Picture</string>
+    <string name="finish_upload"> Finish</string>
+
+    <!-- shared picture view strings -->
+    <string name="shared_pic">Shared Pictures</string>
+    <string name="pic_name">Picture name</string>
+
+    <!-- registration strings -->
+    <string name="Registration">Signup</string>
+    <string name="firstname_hint">First Name</string>
+    <string name="lastname_hint">Last Name</string>
+    <string name="email_hint">Email Address</string>
+    <string name="password_hint">Password</string>
+    <string name="password_Confrim_hint">Confirm Password</string>
+    <string name="city_hint">City</string>
+    <string name="cancel_hint">Cancel</string>
+    <string name="Submit">Submit</string>
+    <string name="female_reg">Female</string>
+    <string name="male_reg">Male</string>
+    <string name="prompt_name">Registration Confirmaton</string>
+    <string name="prompt_code_name">Please check your Email and Enter Code</string>
+    <string name="update_login_prompt">Update Login</string>
+    <string name="prompt_code_hint">Enter Code Here</string>
+
+    <!-- Login strings -->
+    <string name="sign_with_facebook">Login with Cype Account or</string>
+    <string name="sign_up"><u>Signup</u></string>
+    <string name="username_hint">Email used to signup with cype</string>
+    <string name="password">Cype Password</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Clubs Strings -->
+    <string name="cant_find">Can\'t Find a club you know?</string>
+    <string name="tell_us"><u>Tell Us about it</u></string>
+    <string name="feeds"><u><b>Feeds</b></u></string>
+    <string name="feeds_info">Information on future club attending and more</string>
+    <string name="image">image</string>
+    <string name="clubs_bars">Clubs/Bars</string>
+    <string name="club_mood"><html><font color="grey">Crazy</font></html></string>
+    <string name="open_timeCount"><html>cOpen Time:  <font color="grey">00:00</font></html></string>
+    <string name="attend_view">Attending</string>
+    <string name="attend_count">1000</string>
+    <string name="checkedIn_view">CheckedIn</string>
+    <string name="checkedIn_count">1000</string>
+    <string name="rateMusic_view">Rate Music</string>
+    <string name="rateMusic_count">1</string>
+    <string name="sharepic_click">share pics</string>
+    <string name="clubMood_click">vote cmood</string>
+    <string name="attchceckin_click">attending</string>
+    <string name="ratemusic_click">rate music</string>
+    <string name="rating_stars">Rating Star</string>
+    <string name="checkedin_logo">checkedin logo</string>
+    <string name="attending_logo">attending logo</string>
+    <string name="music_symbole">music symbol</string>
+    <string name="clubPicture">club picture</string>
+    <string name="attchceckin_click_desc">thumbUp</string>
+
+    <string-array name="club_moods">
+        <item name="Crazy">Crazy</item>
+        <item name="Mental">Mental</item>
+        <item name="Fun">Fun</item>
+    </string-array>
+    <string-array name="music_rate">
+        <item name="one">1</item>
+        <item name="two">2</item>
+        <item name="three">3</item>
+        <item name="four">4</item>
+        <item name="five">5</item>
+    </string-array>
+
+    <string name="cmood_dialog_title">Vote Club Mood</string>
+
+    <!-- Cpeopl strings -->
+    <string name="girls_view">attending</string>
+    <string name="girls_count">0</string>
+    <string name="boys_view">Checkedin</string>
+    <string name="boys_count">0</string>
+    <string name="attendin_view">Attending</string>
+    <string name="attendin_count">0</string>
+    <string name="checkedin_view">Checkedin</string>
+    <string name="checkedin_count">0</string>
+    <string name="view_photos">View Photos</string>
+    <string name="c_people"><b>30000 Cpoeple</b></string>
+    <string name="Cype_party_People">Cype Party People</string>
+    <string name="dance_with_me"><b>#Ask4ADance</b></string>
+    <string name="drink_with_me"><b>#Ask4ADrink</b></string>
+    <string name="party_with_me"><b>#PartyWivMe</b></string>
+    <string name="partyWithNumCount">0 Person #PartyingWivMe</string>
+
+    <!-- history strings -->
+    <string name="date">Monday-January, 1, 2014</string>
+    <string name="history">History</string>
+    <string name="club_mood_was">Mental</string>
+    <string name="attended_view">attended</string>
+    <string name="attended_count">0</string>
+    <string name="checkedin_h_view">checkedin</string>
+    <string name="checkedin_h_count">0</string>
+    <string name="rateMusic_h_view">Rated Music </string>
+    <string name="rateMusic_h_count">0</string>
+    <string name="viewpic_h_click">view photos</string>
+   
+
+    <!-- club details strings -->
+    <string name="club_details">Club Details</string>
+    <string name="address">Address:</string>
+    <string name="club_address">club address here</string>
+    <string name="name">Club Name:</string>
+    <string name="club_name">Name of club here</string>
+    <string name="map_view">Map</string>
+
+
+    <!-- Uploader strings values -->
+  
+    <string name="step1">1. You can upload an image file to the Amazon S3 using AsyncTask:</string>
+    <string name="show_in_browser">Show in Browser</string>
+    <string name="select_photo">Select Photo</string>
+    <string name="step2">2. You can see the image that you have uploaded in the browser:</string>
+    <string name="sync_requests_note">*** Do not call synchronous AWS requests on the main thread.</string>
+    <string name="upload_failure_title">Upload Failure</string>
+    <string name="browser_failure_title">Browser Failure</string>
+    <string name="ok">OK</string>
+    <string name="uploading">Uploading…</string>
+    <string name="Upload_image">Upload Picture</string>
+    
+
+    <!-- tell us form strings values -->
+    <string name="Cancel">Cancel</string>
+    <string name="Submit">Submit</string>
+    <string name="Country">Country</string>
+    <string name="Zip_Code">Zip Code</string>
+    <string name="State_County">State County</string>
+    <string name="City">City</string>
+    <string name="Address">Address</string>
+    <string name="Club_or_Bar_Name">Club or Bar Name</string>
+
+   
+
+    <!-- forgetpassword strings values -->
+    <string name="fp_email_hint">email address</string>
+    <string name="fp_submit">submit</string>
+    
+    <string name="hello_world">Hello world!</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="title_activity_map_view">Map View</string>
+   
+    <string name="update_finish">Finish</string>
+    
+    <!-- image view -->
+    <string name="image_viewer">Image Viewer</string>
+    
+   
+ 
+</resources>

@@ -1,0 +1,215 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:background="@color/white"
+        android:paddingBottom="3dp"
+        android:paddingLeft="3dp" >
+
+        <TextView
+            android:id="@+id/club_mood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="3dip"
+            android:layout_marginRight="20dip"
+            android:layout_marginTop="18dip"
+            android:text="@string/club_mood"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/clubs_bar"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/checkedIn_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/rateMusic_view"
+            android:layout_alignBottom="@+id/rateMusic_view"
+            android:layout_marginRight="11dp"
+            android:layout_toLeftOf="@+id/rateMusic_view"
+            android:text="@string/checkedIn_view"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/clubs_bar"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/attend_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/attend_view"
+            android:layout_below="@+id/attend_view"
+            android:layout_marginLeft="0dip"
+            android:text="@string/attend_count"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/dark_blue"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/ratemusic_click"
+            style="@style/DefaultButton"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/club_mood"
+            android:layout_marginLeft="-20dip"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:paddingTop="4dip"
+            android:text="@string/ratemusic_click"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/gryish"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/attcheckin_click"
+            style="@style/DefaultButton"
+            android:layout_width="62dip"
+            android:layout_height="28dip"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/rateMusic_count"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:paddingTop="4dip"
+            android:text="@string/attchceckin_click"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/gryish"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/clubMood_click"
+            style="@style/DefaultButton"
+            android:layout_width="wrap_content"
+            android:layout_height="28dip"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/chckedIn_count"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:paddingTop="4dip"
+            android:text="@string/clubMood_click"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/gryish"
+            android:textColorHighlight="@color/gryish"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/sharepic_click"
+            style="@style/DefaultButton"
+            android:layout_width="wrap_content"
+            android:layout_height="28dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:paddingTop="4dip"
+            android:text="@string/sharepic_click"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/gryish"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/rateMusic_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/club_mood"
+            android:layout_below="@+id/club_mood"
+            android:layout_marginTop="8dip"
+            android:text="@string/rateMusic_view"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/clubs_bar"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/attend_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/checkedIn_view"
+            android:layout_alignBottom="@+id/checkedIn_view"
+            android:layout_alignLeft="@+id/clubMood_click"
+            android:layout_marginRight="5dip"
+            android:text="@string/attend_view"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/clubs_bar"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/chckedIn_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/attcheckin_click"
+            android:layout_below="@+id/checkedIn_view"
+            android:layout_marginLeft="-8dip"
+            android:text="@string/checkedIn_count"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/Lighter_blue"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/rateMusic_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ratemusic_click"
+            android:layout_below="@+id/rateMusic_view"
+            android:layout_marginLeft="-4dip"
+            android:text="@string/rateMusic_count"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/tell_us"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/club_logo"
+            android:layout_width="300dip"
+            android:layout_height="wrap_content"
+            android:maxLength="50"
+            android:textColor="@color/gryish" />
+
+        <ImageView
+            android:id="@+id/rate_star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rateMusic_count"
+            android:layout_marginRight="-37dip"
+            android:layout_marginTop="-13dip"
+            android:layout_toLeftOf="@+id/ratemusic_click"
+            android:contentDescription="@string/rating_stars"
+            android:src="@drawable/zero_star" />
+
+        <ImageView
+            android:id="@+id/attending_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/checkedin_logo"
+            android:layout_marginBottom="-1dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="-4dip"
+            android:layout_toRightOf="@+id/attend_count"
+            android:contentDescription="@string/attending_logo"
+            android:src="@drawable/attending" />
+
+        <ImageView
+            android:id="@+id/checkedin_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/checkedIn_view"
+            android:layout_marginBottom="-2dip"
+            android:layout_marginLeft="12dip"
+            android:layout_marginRight="-20dip"
+            android:layout_toRightOf="@+id/chckedIn_count"
+            android:contentDescription="@string/checkedin_logo"
+            android:src="@drawable/checkedin" />
+
+        <ImageView
+            android:id="@+id/music_symbole"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/attending_logo"
+            android:layout_toRightOf="@+id/rate_star"
+            android:contentDescription="@string/music_symbole"
+            android:src="@drawable/music_symbol" />
+    </RelativeLayout>
+
+</LinearLayout>

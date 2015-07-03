@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tell_us">#0066FF</color>
+    <color name="feed_line">#E0E0E0 </color>
+    <color name="clubs_bar">#B0B0B0</color>
+    <color name="white">#ffff</color>
+    <color name="light_blue">#6F9BF9</color>
+    <color name="pink">#FF65F4</color>
+    <color name="black">#000000</color>
+     <color name="gryish">#666666</color>
+       <color name="dark_blue">#003366</color>
+    <color name="Lighter_blue">#33CCFF</color>
+    <color name="header_blue">#0099CC</color>
+    <color name="red">#ff0000</color>
+
+</resources>

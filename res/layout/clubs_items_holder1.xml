@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout1"
+         android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true" >
+
+        <ImageView
+            android:id="@+id/sharepic_click"
+            
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="60dp"
+            android:contentDescription="@string/sharepic_click"
+            android:src="@drawable/camera" />
+
+        <ImageView
+            android:id="@+id/clubMood_click"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="30dp"
+            android:contentDescription="@string/clubMood_click"
+            android:src="@drawable/voteclubmode" />
+
+        <ImageView
+            android:id="@+id/attcheckin_click"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="25dp"
+            android:contentDescription="@string/attchceckin_click_desc"
+            android:src="@drawable/thumbup" />
+
+        <ImageView
+            android:id="@+id/ratemusic_click"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+             android:layout_marginLeft="25dp"
+             android:contentDescription="@string/ratemusic_click"
+            android:src="@drawable/music_symbol" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="19dp" >
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="20dp"
+            android:contentDescription="@string/clubMood_click"
+            android:src="@drawable/voteclubmode" />
+
+        <TextView
+            android:id="@+id/club_mood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="@string/club_mood" />
+
+        <ImageView
+            android:id="@+id/star_rating"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="10dp"
+            android:contentDescription="@string/attchceckin_click"
+            android:src="@drawable/thumbup" />
+
+        <TextView
+            android:id="@+id/attend_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="5dp"
+            android:text="@string/attend_count"
+            android:textColor="@color/clubs_bar" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="10dp"
+            android:contentDescription="@string/attchceckin_click"
+            android:src="@drawable/checkedin" />
+
+        <TextView
+            android:id="@+id/chckedIn_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text="@string/checkedIn_count"
+            android:textColor="@color/clubs_bar" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="10dp"
+            android:contentDescription="@string/ratemusic_click"
+            android:src="@drawable/music_symbol" />
+
+        <TextView
+            android:id="@+id/rateMusic_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="-1dp"
+            android:text="@string/rateMusic_count"
+            android:textColor="@color/clubs_bar" />
+
+        <ImageView
+            android:id="@+id/rate_star"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="-2dp"
+            android:contentDescription="@string/rating_stars"
+            android:src="@drawable/zero_star" />
+
+    </TableRow>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tableRow2" >
+
+      
+
+        <ImageView
+            android:id="@+id/club_picture"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="3dp"
+            android:contentDescription="@string/clubPicture"
+            android:src="@drawable/ic_cype" />
+
+        <TextView
+            android:id="@+id/club_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/club_picture"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="-30dp"
+            android:layout_marginLeft="15dp"
+            android:maxLength="50"
+            android:text="@string/club_name"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/gryish" />
+
+    </RelativeLayout>
+    
+</RelativeLayout>

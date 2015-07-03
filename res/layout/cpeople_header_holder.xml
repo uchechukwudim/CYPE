@@ -1,0 +1,144 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="118dp"
+    android:paddingBottom="5dp" >
+
+    <TextView
+        android:id="@+id/club_name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:maxLength="50" />
+
+    <TextView
+        android:id="@+id/c_people"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/club_name"
+        android:layout_marginLeft="60dip"
+        android:layout_marginTop="30dip"
+        android:text="@string/c_people"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/boys_chekedIn_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/checkedin_logo2"
+        android:layout_alignLeft="@+id/checkedin_logo2"
+        android:text="@string/attendin_count"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/light_blue"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/boys_attend_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/boys_chekedIn_count"
+        android:layout_alignBottom="@+id/boys_chekedIn_count"
+        android:layout_alignLeft="@+id/attending_logo"
+        android:text="@string/attendin_count"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/light_blue"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/checkedin_logo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkedin_logo"
+        android:layout_alignRight="@+id/checkedin_logo"
+        android:layout_below="@+id/c_people"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="22dp"
+        android:contentDescription="@string/checkedin_logo"
+        android:src="@drawable/cp_checkedin" />
+
+    <ImageView
+        android:id="@+id/female_icon"
+        android:layout_width="20dip"
+        android:layout_height="20dip"
+        android:layout_alignLeft="@+id/male_icon"
+        android:layout_alignTop="@+id/checkedin_logo2"
+        android:contentDescription="@string/image"
+        android:src="@drawable/female_icon" />
+
+    <ImageView
+        android:id="@+id/male_icon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_above="@+id/boys_attend_count"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/image"
+        android:src="@drawable/cp_boy" />
+
+    <ImageView
+        android:id="@+id/attending_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/boys_chekedIn_count"
+        android:layout_toRightOf="@+id/male_icon"
+        android:contentDescription="@string/checkedin_logo"
+        android:src="@drawable/cp_atteend" />
+
+    <TextView
+        android:id="@+id/view_photos"
+        style="@style/DefaultButton"
+        android:layout_width="wrap_content"
+        android:layout_height="30dip"
+        android:layout_alignLeft="@+id/club_name"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="8dip"
+        android:text="@string/view_photos"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/white"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/checkedin_logo2"
+        android:layout_alignLeft="@+id/boys_attend_count"
+        android:src="@drawable/cp_atteend" />
+
+    <TextView
+        android:id="@+id/chk_girl_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkedin_logo2"
+        android:layout_below="@+id/checkedin_logo2"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/pink"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/att_girl_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/female_icon"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/pink"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/checkedin_logo"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/attending_logo"
+        android:layout_alignRight="@+id/club_name"
+        android:layout_marginRight="33dp"
+        android:contentDescription="@string/checkedin_logo"
+        android:src="@drawable/cp_checkedin" />
+
+</RelativeLayout>

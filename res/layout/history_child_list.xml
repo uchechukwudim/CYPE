@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="90dp" android:paddingBottom="3dp" android:paddingLeft="3dp">
+        <TextView android:id="@+id/viewpic_h_click" style="@style/DefaultButton" android:layout_width="wrap_content" android:layout_height="30dip" android:layout_alignParentBottom="true" android:layout_alignParentLeft="true" android:paddingLeft="5dip" android:paddingRight="5dip" android:paddingTop="8dp" android:text="@string/viewpic_h_click" android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@color/white" android:textColorHighlight="@color/white" android:textSize="12sp"/>
+        <TextView android:id="@+id/club_name_his" android:layout_width="300dip" android:layout_height="wrap_content" android:maxLength="50" android:textColor="@color/gryish"/>
+
+        <TextView
+            android:id="@+id/attended_h_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/checkedin_h_count"
+            android:layout_alignBottom="@+id/checkedin_h_count"
+            android:layout_alignLeft="@+id/attending_logo"
+            android:text="0"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/dark_blue"
+            android:textSize="12sp" />
+
+        <TextView android:id="@+id/club_mood_was" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@+id/attending_logo" android:layout_alignRight="@+id/club_name_his" android:layout_marginRight="25dp" android:text="@string/club_mood_was" android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@color/clubs_bar" android:textSize="12sp"/>
+        <ImageView android:id="@+id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@+id/attending_logo" android:layout_alignTop="@+id/club_mood_was" android:layout_toLeftOf="@+id/club_mood_was" android:src="@drawable/cp_club_mood"/>
+        <TextView android:id="@+id/rateMusic_h_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@+id/music_symbole" android:layout_alignTop="@+id/viewpic_h_click" android:text="0" android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@color/tell_us" android:textSize="12sp"/>
+        <ImageView android:id="@+id/star_rating" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@+id/rateMusic_h_count" android:layout_marginTop="4dp" android:layout_toRightOf="@+id/rateMusic_h_count" android:src="@drawable/zero_star"/>
+        <ImageView android:id="@+id/attending_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@+id/attended_h_count" android:layout_marginRight="34dp" android:layout_toLeftOf="@+id/checkedin_logo" android:contentDescription="@string/attending_logo" android:src="@drawable/cp_atteend"/>
+
+        <ImageView
+            android:id="@+id/music_symbole"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/rateMusic_h_count"
+            android:layout_alignRight="@+id/imageView1"
+            android:contentDescription="@string/music_symbole"
+            android:src="@drawable/cp_music_sym" />
+
+        <TextView
+            android:id="@+id/checkedin_h_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/rateMusic_h_count"
+            android:layout_alignBottom="@+id/rateMusic_h_count"
+            android:layout_marginRight="38dp"
+            android:layout_toLeftOf="@+id/imageView1"
+            android:text="0"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/Lighter_blue"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/checkedin_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/checkedin_h_count"
+            android:layout_alignRight="@+id/checkedin_h_count"
+            android:contentDescription="@string/checkedin_logo"
+            android:src="@drawable/cp_checkedin" />
+
+    </RelativeLayout>
+
+    
+
+</LinearLayout>

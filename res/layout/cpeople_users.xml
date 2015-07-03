@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/white" >
+
+        <ImageView
+            android:id="@+id/user_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:src="@drawable/ab_stacked_solid_cype" />
+
+        <TextView
+            android:id="@+id/user_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/user_name"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="-12dp"
+            android:layout_marginRight="27dp"
+            android:text="Female"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/user_image"
+            android:maxLength="38"
+            android:paddingLeft="5dp"
+            android:text="uchechukwuu"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/ask_drink"
+            style="@style/DefaultButton"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignBaseline="@+id/ask_dance"
+            android:layout_alignBottom="@+id/ask_dance"
+            android:layout_alignParentRight="true"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="8dp"
+            android:text="@string/drink_with_me"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/ask_dance"
+            style="@style/DefaultButton"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignBottom="@+id/user_image"
+            android:layout_alignRight="@+id/user_status"
+            android:layout_marginBottom="3dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="8dp"
+            android:text="@string/dance_with_me"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:textSize="10sp" />
+        
+        <TextView
+            android:id="@+id/user_account_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="2dp"
+            android:layout_toRightOf="@+id/user_image"
+            android:paddingLeft="170dp"
+            android:text="Facebook"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/user_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/user_gender"
+            android:layout_alignBottom="@+id/user_gender"
+            android:layout_marginLeft="20dp"
+            android:layout_toLeftOf="@+id/ask_drink"
+            android:paddingBottom="0dp"
+            android:text="CheckedIn"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/party_with_me"
+            style="@style/DefaultButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/ask_dance"
+            android:layout_alignBottom="@+id/ask_dance"
+            android:layout_alignLeft="@+id/user_account_type"
+            android:layout_marginLeft="24dp"
+            android:paddingBottom="8dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="8dp"
+            android:text="@string/party_with_me"
+            android:textColor="@color/white"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/partyWiv_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/party_with_me"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="2dp"
+            android:text="@string/partyWithNumCount"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/light_blue"
+            android:textSize="9sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

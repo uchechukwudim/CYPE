@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".UpdateDetails" >
+
+    <EditText
+        android:id="@+id/update_email"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/sh_file"
+        android:ems="10"
+        android:hint="@string/email_hint"
+        android:inputType="textEmailAddress" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/update_city"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/sh_file"
+        android:ems="10"
+        android:hint="@string/city_hint" />
+
+     <EditText
+         android:id="@+id/update_lastName"
+         android:layout_width="fill_parent"
+         android:layout_height="45dp"
+         android:layout_above="@+id/update_city"
+         android:layout_alignParentRight="true"
+         android:layout_marginBottom="20dp"
+         android:background="@drawable/sh_file"
+         android:ems="10"
+         android:hint="@string/lastname_hint"
+         android:inputType="textPersonName" />
+
+     <EditText
+         android:id="@+id/update_firstName"
+         android:layout_width="fill_parent"
+         android:layout_height="45dp"
+         android:layout_alignLeft="@+id/update_email"
+         android:layout_below="@+id/update_email"
+         android:layout_marginTop="14dp"
+         android:background="@drawable/sh_file"
+         android:ems="10"
+         android:hint="@string/firstname_hint"
+         android:inputType="textPersonName" />
+
+     <Button
+         android:id="@+id/update_submit"
+         android:layout_width="fill_parent"
+         android:layout_height="45dp"
+         android:layout_alignLeft="@+id/update_password"
+         android:layout_alignParentBottom="true"
+          style="@style/DefaultButton"
+         android:text="@string/submit"
+         android:textColor="@color/white" />
+
+     <EditText
+         android:id="@+id/update_password"
+         android:layout_width="fill_parent"
+         android:layout_height="45dp"
+         android:layout_above="@+id/update_re_password"
+         android:layout_alignLeft="@+id/update_city"
+         android:layout_marginBottom="14dp"
+         android:background="@drawable/sh_file"
+         android:ems="10"
+         android:hint="@string/password_hint"
+         android:inputType="textPassword" />
+
+     <EditText
+         android:id="@+id/update_re_password"
+         android:layout_width="fill_parent"
+         android:layout_height="45dp"
+         android:layout_above="@+id/update_submit"
+         android:layout_alignLeft="@+id/update_submit"
+         android:layout_marginBottom="20dp"
+         android:background="@drawable/sh_file"
+         android:ems="10"
+         android:hint="@string/password_Confrim_hint"
+         android:inputType="textPassword" />
+
+</RelativeLayout>
